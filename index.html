@@ -1,30 +1,65 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redes Sociais</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
+    <title>Projeto de Vida - Vitória</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Relatório das redes sociais</h1>
+        <h1>Meu Projeto de Vida</h1>
         <nav>
-            <a href="index.html">Mundo</a>
-            <a href="#">Minha escola</a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#objetivos">Objetivos</a></li>
+                <li><a href="#inspiracoes">Inspirações</a></li>
+                <li><a href="#plano">Plano de Ação</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
         </nav>
     </header>
-    <main class="graficos-section">
-        <section id="graficos-container" class="graficos-container">
-            <!-- crie os gráficos/texto aqui -->
+
+    <main>
+        <section id="home">
+            <h2>Bem-vindo!</h2>
+            <p>Olá, meu nome é Vitória. Este site é sobre meu sonho de cursar <strong>Enfermagem</strong> e ajudar minha família a ter um futuro melhor.</p>
+        </section>
+
+        <section id="objetivos">
+            <h2>Meus Objetivos</h2>
+            <ul>
+                <li>Cursar Enfermagem em uma universidade renomada.</li>
+                <li>Conseguir um emprego na área da saúde.</li>
+                <li>Ajudar financeiramente minha família.</li>
+            </ul>
+        </section>
+
+        <section id="inspiracoes">
+            <h2>Inspirações</h2>
+            <img src="enfermagem.jpg" alt="Enfermagem" style="width:100%; max-width:400px; border-radius:10px;">
+            <blockquote>"A enfermagem é a arte de cuidar, e eu quero fazer a diferença na vida das pessoas."</blockquote>
+        </section>
+
+        <section id="plano">
+            <h2>Plano de Ação</h2>
+            <p><strong>1.</strong> Concluir o ensino médio com boas notas.</p>
+            <p><strong>2.</strong> Fazer um curso preparatório para o vestibular.</p>
+            <p><strong>3.</strong> Passar em uma faculdade de Enfermagem.</p>
+            <p><strong>4.</strong> Buscar estágios e experiências na área.</p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Instagram: <a href="https://www.instagram.com/viisantana__" target="_blank">@viisantana__</a></p>
+            <p>WhatsApp: <a href="https://wa.me/5541997377084" target="_blank">(41) 99737-7084</a></p>
         </section>
     </main>
+
     <footer>
-        <p>Desenvolvido por Vitoria</p>
+        <p>&copy; 2024 Projeto de Vida - Vitória</p>
     </footer>
-    <script type="module" src="graficos/common.js"></script>
-    <script type="module" src="graficos/informacoesGlobais.js"></script>
-    <script type="module" src="graficos/quantidadeUsuarios.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
