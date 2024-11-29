@@ -14,6 +14,6 @@ document.addEventListener('DOMContentLoaded', function () {
     document.body.appendChild(motivacao);
 
     motivacao.addEventListener('click', function () {
-        alert('Vitória, você está no caminho certo! Acredite em si mesma e no seu potencial!');
+        alert('Você está no caminho certo! Acredite em si mesma(o) e no seu potencial!');
     });
 });
