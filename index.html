@@ -1,65 +1,57 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto de Vida - Vitória</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesquisa sobre Redes Sociais</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Meu Projeto de Vida</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#objetivos">Objetivos</a></li>
-                <li><a href="#inspiracoes">Inspirações</a></li>
-                <li><a href="#plano">Plano de Ação</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="home">
-            <h2>Bem-vindo!</h2>
-            <p>Olá, meu nome é Vitória. Este site é sobre meu sonho de cursar <strong>Enfermagem</strong> e ajudar minha família a ter um futuro melhor.</p>
-        </section>
-
-        <section id="objetivos">
-            <h2>Meus Objetivos</h2>
-            <ul>
-                <li>Cursar Enfermagem em uma universidade renomada.</li>
-                <li>Conseguir um emprego na área da saúde.</li>
-                <li>Ajudar financeiramente minha família.</li>
-            </ul>
-        </section>
-
-        <section id="inspiracoes">
-            <h2>Inspirações</h2>
-            <img src="enfermagem.jpg" alt="Enfermagem" style="width:100%; max-width:400px; border-radius:10px;">
-            <blockquote>"A enfermagem é a arte de cuidar, e eu quero fazer a diferença na vida das pessoas."</blockquote>
-        </section>
-
-        <section id="plano">
-            <h2>Plano de Ação</h2>
-            <p><strong>1.</strong> Concluir o ensino médio com boas notas.</p>
-            <p><strong>2.</strong> Fazer um curso preparatório para o vestibular.</p>
-            <p><strong>3.</strong> Passar em uma faculdade de Enfermagem.</p>
-            <p><strong>4.</strong> Buscar estágios e experiências na área.</p>
-        </section>
-
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Instagram: <a href="https://www.instagram.com/viisantana__" target="_blank">@viisantana__</a></p>
-            <p>WhatsApp: <a href="https://wa.me/5541997377084" target="_blank">(41) 99737-7084</a></p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Projeto de Vida - Vitória</p>
-    </footer>
-
-    <script src="script.js"></script>
+  <header>
+    <h1>Resultados da Pesquisa sobre Redes Sociais</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Dados Coletados</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Rede Social</th>
+            <th>Horas por Dia (Média)</th>
+            <th>Usuários (%)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Instagram</td>
+            <td>3</td>
+            <td>40</td>
+          </tr>
+          <tr>
+            <td>Facebook</td>
+            <td>2</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>WhatsApp</td>
+            <td>4</td>
+            <td>70</td>
+          </tr>
+          <tr>
+            <td>TikTok</td>
+            <td>3.5</td>
+            <td>35</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2>Gráficos</h2>
+      <canvas id="graficoBarras"></canvas>
+      <canvas id="graficoPizza"></canvas>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
